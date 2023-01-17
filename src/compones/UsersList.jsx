@@ -21,9 +21,9 @@ const UsersList = ({ usersList, selectUser, getUsers }) => {
                         <li key={user.id} className='list'>
                             <h4>{user.first_name},{user.last_name}</h4>
                             <ul className='list'>
-                                <li> <b>Email:</b>{user.email}</li>
-                                <li> <b>Password:</b>{user.password}</li>
-                                <li> <b>Birthday:</b>{user.birthday}</li>
+                                <li className='info'> <b>Email:</b>{user.email}</li>
+                                <li className='info'> <b>Password:</b>{user.password}</li>
+                                <li className='info'> <b>Birthday:</b>{user.birthday}</li>
                             </ul>
                             <button className='buttonForm' onClick={() => selectUser(user)}>Select</button>
                             <button className='buttonForm' onClick={() => deleteUser(user)}>Delete</button>

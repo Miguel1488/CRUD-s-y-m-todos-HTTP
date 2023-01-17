@@ -6,11 +6,17 @@
 
 
 }
+body{
+   background-image: url(./4_0.jpg);
+ background-size: cover
+ ;
+ opacity: 12px;
+}
 
 /*formulario*/
 
 .title {
-
+    background-color: #24303c;
     color: white;
     text-align: center;
 }
@@ -63,6 +69,8 @@
 /* lista */
 
 .cards {
+   border: 2px solid;
+    background: #b231bbbd;
    background-image: url();
     padding: 100px;
     overflow: hidden;
@@ -74,6 +82,14 @@
     grid-template-columns: repeat(5, 3fr);
     gap: 60px
 }
+.list{
+    border: 1px solid;
+    border-radius: 5px;
+ 
+}
+.info{
+    border: none;
+}
 
 .buttonForm {
     
@@ -82,7 +98,7 @@
     padding:  2px 20px;
     overflow: hidden;
     transition: 0.2s;
-    poin
+   
 
     /*width: 60px;
     height: 30px;
